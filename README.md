@@ -17,6 +17,11 @@ Spring Framework: Spring Fundamentals
   * Lifecycle of a Spring Bean in an ApplicationContext
   * ApplicationContext and Integration test
   * Close an application context
+  * applicationContext.xml
+    * Name doesn't matter. default is applicationContext.xml
+    * Spring Context sort of a HashMap
+    * Can simply be a registry
+    * XML configuration begins with this file
 * Component scanning
 * Sterotypes
   * @Component
