@@ -24,7 +24,11 @@ Spring Framework: Spring Fundamentals
 * BeanPostProcessor
 * Proxy object
 * @Bean
+  * Spring Beans defined by @Bean
+  * @Bean at method level
 * @Configuration
+  * applicationContext.xml replaced by @Configuration
+  * @Configuration at class level
 * @Profiles
 * @Value
 * Environment abstraction
@@ -32,4 +36,9 @@ Spring Framework: Spring Fundamentals
 
 
 ### Module2
+
+### Module4
+* Setter injection
+  * Setter Injection simply calling a setter
+  * Simple as a method call
 
