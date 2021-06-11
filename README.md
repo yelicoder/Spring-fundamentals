@@ -22,6 +22,7 @@ Spring Framework: Spring Fundamentals
     * Spring Context sort of a HashMap
     * Can simply be a registry
     * XML configuration begins with this file
+    * Namespaces aid in configuration/validation
 * Component scanning
 * Sterotypes
   * @Component
