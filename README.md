@@ -26,6 +26,7 @@ Spring Framework: Spring Fundamentals
 * Bean
   * Scopes
     * @Scope can be added right below @Bean
+    * @Scope(BeanDefinition.SCOPE_SINGLETON)
     * Singleton: one instance per Spring container
     * Prototype: one instance per request
     * Request: return an instance per HttpRequest
@@ -70,5 +71,6 @@ Spring Framework: Spring Fundamentals
 * If @Autowired on the construction, it will not inject the repository because in AppConfig the no arg constructor is called.
 
 ### conference-java-module7
-* If stereotype is used, the bean does not need to be defined in AppConfig. @Autowire is still needed to inject the bean.
+* If stereotype is used, the bean does not need to be defined in AppConfig. @Autowire is still needed to inject another bean.
+* @Scope can be defined after the stereotype annotation
 
