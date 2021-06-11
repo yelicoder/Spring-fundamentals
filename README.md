@@ -63,6 +63,7 @@ Spring Framework: Spring Fundamentals
 
 ### conference-java-module6
 * If @Autowired, the setter method will be called to inject the respository. Otherwise, the setter method will not be called
+* If @Autowired on the construction, it will not inject the repository because in AppConfig the no arg constructor is called.
 
 
 
