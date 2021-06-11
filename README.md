@@ -22,8 +22,11 @@ Spring Framework: Spring Fundamentals
 * Bean
   * Scopes
     * @Scope can be added right below @Bean
-    * Singleton: on instance per Spring container
-    * Prototype: on instance per request
+    * Singleton: one instance per Spring container
+    * Prototype: one instance per request
+    * Request: return an instance per HttpRequest
+    * Session: return an instance per HttpSession
+    * GlobalSession: return an instance per applicatioin
   * Instantiation
 * Property source
 * BeanFactoryPostProcessor
