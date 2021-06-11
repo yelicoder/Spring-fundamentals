@@ -22,6 +22,8 @@ Spring Framework: Spring Fundamentals
 * Bean
   * Scopes
     * @Scope can be added right below @Bean
+    * Singleton: on instance per Spring container
+    * Prototype: on instance per request
   * Instantiation
 * Property source
 * BeanFactoryPostProcessor
@@ -49,6 +51,12 @@ Spring Framework: Spring Fundamentals
 ### Conference-java-module3
 * Constructor injection
   * Inject the bean by calling constructor in AppConfig.java
+
+### Conference-java-module4
+* Singleton bean scope
+
+### conference-java-module5
+* Prototype bean scope: a unique instance per request
 
 
 
