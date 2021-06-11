@@ -21,6 +21,7 @@ Spring Framework: Spring Fundamentals
 * Sterotypes
 * Bean
   * Scopes
+    * @Scope can be added right below @Bean
   * Instantiation
 * Property source
 * BeanFactoryPostProcessor
