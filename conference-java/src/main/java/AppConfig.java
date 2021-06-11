@@ -27,7 +27,7 @@ public class AppConfig {
     Calendar cal() throws Exception {
         return calFactory().getObject();
     }
-/*
+
     @Bean(name = "speakerService")
     @Scope(value= BeanDefinition.SCOPE_SINGLETON)
     public SpeakerService getSpeakerService() {
@@ -36,12 +36,9 @@ public class AppConfig {
         //service.setRepository(getSpeakerRepository());
         return service;
     }
-*/
-    /*
+
     @Bean(name = "speakerRepository")
     public SpeakerRepository getSpeakerRepository() {
         return new HibernateSpeakerRepositoryImpl();
     }
-
-     */
 }
