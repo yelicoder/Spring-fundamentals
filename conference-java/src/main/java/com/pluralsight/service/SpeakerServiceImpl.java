@@ -1,4 +1,4 @@
-package com.pluralsight.service;
+gitpackage com.pluralsight.service;
 
 import com.pluralsight.model.Speaker;
 import com.pluralsight.repository.HibernateSpeakerRepositoryImpl;
