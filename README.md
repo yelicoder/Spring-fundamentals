@@ -68,9 +68,12 @@ Spring Framework: Spring Fundamentals
 
 ### conference-java-module6
 * If @Autowired, the setter method will be called to inject the respository. Otherwise, the setter method will not be called
-* If @Autowired on the construction, it will not inject the repository because in AppConfig the no arg constructor is called.
+* If @Autowired on the constructor, it will not inject the repository because in AppConfig the no arg constructor is called.
 
 ### conference-java-module7
 * If stereotype is used, the bean does not need to be defined in AppConfig. @Autowire is still needed to inject another bean.
 * @Scope can be defined after the stereotype annotation
+
+### conference-java-module8
+* constructor injection
 
