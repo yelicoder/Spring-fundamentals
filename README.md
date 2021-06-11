@@ -39,13 +39,15 @@ Spring Framework: Spring Fundamentals
 * 
 
 
-### Conference-java-module1
+### Conference-java-module2
 * Setter injection
   * Setter Injection simply calling a setter
   * Simple as a method call
   * Setter injection in AppConfig.java
   * getSpeakerRepository can be called many times, only one HibernateSpeakerRepositoryImpl instance will be created because it is a Bean besides there is a "new HibernateSpeakerRepositoryImpl()" for each call.
+### Conference-java-module3
+* Constructor injection
+  * Inject the bean by calling constructor in AppConfig.java
 
-### Module4
 
 
