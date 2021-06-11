@@ -75,5 +75,5 @@ Spring Framework: Spring Fundamentals
 * @Scope can be defined after the stereotype annotation
 
 ### conference-java-module8
-* constructor injection
+* constructor injection and setter injection can be used freely because no AppConfig to instantiate the bean
 
