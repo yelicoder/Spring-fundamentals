@@ -109,4 +109,5 @@ Spring Framework: Spring Fundamentals
 
 ### conference-xml-module5
 * Autowire by name
+* Setter method name has to match the name of the bean to be injected
 
