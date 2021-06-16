@@ -95,7 +95,10 @@ Spring Framework: Spring Fundamentals
 * Constructor injection: Guaranteed contract. Need have Constructor defined. Index based.
 * constructor-arg tag, index and ref attribute
 * Setter and Constructor injector can be used together
-* 
-* 
+* Autoiwire
+  * Spring auto wires bean
+  * byType
+  * byName
+  * constructor
 
 
