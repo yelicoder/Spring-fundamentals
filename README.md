@@ -101,14 +101,12 @@ Spring Framework: Spring Fundamentals
   * byName
   * constructor
 
-### conference-xml-module2
-* Constructor injection: Guaranteed contract. Need have Constructor defined. Index based.
-* constructor-arg tag, index and ref attribute
-* Setter and Constructor injector can be used together
-* Autoiwire
-  * Spring auto wires bean
-  * byType
-  * byName
-  * constructor
+### conference-xml-module3
+* Autowire constructor
+  
+### conference-xml-module4
+* Autowire by type
 
+### conference-xml-module5
+* Autowire by name
 
