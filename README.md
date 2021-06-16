@@ -94,6 +94,11 @@ Spring Framework: Spring Fundamentals
 * Legacy Code: contract without constructor
 * Static Methods
 
+### conference-java-module 11 SpEL
+* Manipulate Object Graph
+* Evaluate at Runtime
+* Configuration
+
 ### conference-xml-module1
 * Simple bean definition: name and class. Class is the implementation class, not the interface
 * Setter injection: user property. The property name should match the setter method of the bean
@@ -129,6 +134,5 @@ Spring Framework: Spring Fundamentals
 * InitMethod
 * Post Initialization - BeanPostProcessors
 
-### SpEL
 ### Proxies
 ### Profiles
