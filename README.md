@@ -3,6 +3,7 @@ Spring Framework: Spring Fundamentals
 
 ### Overview
 * Dependency Injection
+  * Objects define their dependencies (that is, the other objects they work with) only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method
   * Using Java configuration
   * Using annotations
      * @Autowired
@@ -85,6 +86,13 @@ Spring Framework: Spring Fundamentals
 * constructor injection and setter injection can be used freely because sterotype annotation eliminated the need to instantiate the bean manually.
 
 ### conference-java-module9
+* @PostConstruct
+
+### conference-java-module 10 FactoryBean
+* Builds on initMethod concept
+* Factory Method Pattern
+* Legacy Code: contract without constructor
+* Static Methods
 
 ### conference-xml-module1
 * Simple bean definition: name and class. Class is the implementation class, not the interface
@@ -111,3 +119,16 @@ Spring Framework: Spring Fundamentals
 * Autowire by name
 * Setter method name has to match the name of the bean to be injected
 
+### Bean Lifecycle
+* Instantiation
+* Populate Properties
+* BeanNameAware
+* BeanFactoryAware
+* Pre Initialization - BeanPostProcessors
+* InitializeBean
+* InitMethod
+* Post Initialization - BeanPostProcessors
+
+### SpEL
+### Proxies
+### Profiles
