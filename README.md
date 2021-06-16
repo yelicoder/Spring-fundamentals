@@ -30,6 +30,7 @@ Spring Framework: Spring Fundamentals
   * @Service: business logic
   * @Controller
 * Bean
+  * Beans are essentially classes. Defining beans replaces keyword new. Define classes, use interfaces.
   * Scopes
     * @Scope can be added right below @Bean
     * @Scope(BeanDefinition.SCOPE_SINGLETON)
@@ -81,5 +82,20 @@ Spring Framework: Spring Fundamentals
 * @Scope can be defined after the stereotype annotation
 
 ### conference-java-module8
-* constructor injection and setter injection can be used freely because no AppConfig to instantiate the bean
+* constructor injection and setter injection can be used freely because sterotype annotation eliminated the need to instantiate the bean manually.
+
+### conference-java-module9
+
+### conference-xml-module1
+* Simple bean definition: name and class. Class is the implementation class, not the interface
+* Setter injection: user property. The property name should match the setter method of the bean
+
+
+### conference-xml-module2
+* Constructor injection: Guaranteed contract. Need have Constructor defined. Index based.
+* constructor-arg tag, index and ref attribute
+* Setter and Constructor injector can be used together
+* 
+* 
+
 
