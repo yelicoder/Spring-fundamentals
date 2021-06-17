@@ -101,6 +101,10 @@ Spring Framework: Spring Fundamentals
 
 ### conference-java-module 12 using proxy factory
 
+### conference-java-module 12 using bean profile
+* inject different beans based on @Profile("...") value
+* JVM argument: -Dspring.profiles.active="..."
+
 ### conference-xml-module1
 * Simple bean definition: name and class. Class is the implementation class, not the interface
 * Setter injection: user property. The property name should match the setter method of the bean
