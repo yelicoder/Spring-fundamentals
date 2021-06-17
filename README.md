@@ -8,6 +8,30 @@ Dependency Injection is a process where by objects define their dependencies (th
 
 ### What is an ApplicationContext?
 
+### How are you going to create a new instance of an ApplicationContext?
+
+### Can you describe the lifecycle of a Spring Bean in an ApplicationContext?
+
+### How are you going to create an ApplicationContext in an integration test?
+
+### What is the preferred way to close an application context? Does Spring Boot do this for you?
+
+### Can you describe dependency injection using Java configuration?
+
+### Can you describe dependency injection using annotations (@Autowired)?
+
+### Can you describe Component scanning?
+
+### Can you describe Stereotypes?
+
+### Can you describe scopes for Spring beans? What is the default scope?
+
+### Are beans lazily or eagerly instantiated by default? How do you alter this behavior?
+
+### What is a property source? How would you use @PropertySource
+
+
+
 
 
 ### Overview
