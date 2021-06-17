@@ -3,6 +3,7 @@ package com.pluralsight.repository;
 import com.pluralsight.model.Speaker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -14,7 +15,7 @@ public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
     private Calendar cal;
 
     @Override
-    public List<Speaker> findAll(){
+    public List<Speaker> findAll() {
         List<Speaker> speakers = new ArrayList<>();
         Speaker speaker = new Speaker();
 
