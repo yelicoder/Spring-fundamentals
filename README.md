@@ -7,7 +7,10 @@ Spring Framework: Spring Fundamentals
   * Using Java configuration
   * Using annotations
      * @Autowired
-     * @Qualifier
+         * on a property (field): byType
+         * on a property setter: byType
+         * on a constructor: constructor
+     * @Qualifier: used for conflict resolution if there are two beans with the same type.
 * Interface
 * ApplicationContext
   * creating ApplicationContext: Application context creates a registry of beans. The code can get beans from the registry instead of hard coded the instantiation of the beans.
@@ -84,15 +87,18 @@ Spring Framework: Spring Fundamentals
 
 ### conference-java-module8
 * constructor injection and setter injection can be used freely because sterotype annotation eliminated the need to instantiate the bean manually.
+* If @Autowired is on both constructor and setter, spring will call both.
 
 ### conference-java-module9
-* @PostConstruct
+* @PostConstruct are called after the constructor and the setter
 
 ### conference-java-module 10 FactoryBean
 * Builds on initMethod concept
 * Factory Method Pattern
 * Legacy Code: contract without constructor
 * Static Methods
+* CalendarBean created by the factory
+* https://spring.io/blog/2011/08/09/what-s-a-factorybean
 
 ### conference-java-module 11 SpEL
 * Manipulate Object Graph
@@ -101,7 +107,7 @@ Spring Framework: Spring Fundamentals
 
 ### conference-java-module 12 using proxy factory
 
-### conference-java-module 12 using bean profile
+### conference-java-module 13 using bean profile
 * inject different beans based on @Profile("...") value
 * JVM argument: -Dspring.profiles.active="..."
 
@@ -114,7 +120,7 @@ Spring Framework: Spring Fundamentals
 * Constructor injection: Guaranteed contract. Need have Constructor defined. Index based.
 * constructor-arg tag, index and ref attribute
 * Setter and Constructor injector can be used together
-* Autoiwire
+* Autowire:default is byType
   * Spring auto wires bean
   * byType
   * byName
