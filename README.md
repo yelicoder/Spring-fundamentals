@@ -99,6 +99,8 @@ Spring Framework: Spring Fundamentals
 * Evaluate at Runtime
 * Configuration
 
+### conference-java-module 12 using proxy factory
+
 ### conference-xml-module1
 * Simple bean definition: name and class. Class is the implementation class, not the interface
 * Setter injection: user property. The property name should match the setter method of the bean
