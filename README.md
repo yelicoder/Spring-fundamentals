@@ -145,6 +145,3 @@ Spring Framework: Spring Fundamentals
 * InitializeBean
 * InitMethod
 * Post Initialization - BeanPostProcessors
-
-### Proxies
-### Profiles
