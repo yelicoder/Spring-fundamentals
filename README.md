@@ -30,6 +30,57 @@ Dependency Injection is a process where by objects define their dependencies (th
 
 ### What is a property source? How would you use @PropertySource
 
+### What is a BeanFactoryPostProcessor and what is it used for? When is it invoked?
+
+#### Why woudl you define a static @Bean method when creating your own BeanFactoryPostProcessor?
+#### What is a PropertySourcesPlaceholderConfigurer used for?
+
+### What is a BeanPostProcessor and how is it different to a BeanFactoryPostProcessor? What do they do? When are they called?
+#### What is an initialization method and how is it declared on a Spring bean?
+#### What is a destroy method, how is it declared and when is it called?
+#### Consider how you enable JSR-250 annotations like @PostConstruct and @PreDestroy? When/how will they get called?
+#### How else can you define an initalization or destruction method for a Spring bean?
+
+### What does component-scanning do?
+### What is the behavior of the annotation @Autowired with regardsd to field injection, constructor injection and method injection?
+
+### How does the @Qualifier annotation complement the use of @Autowired?
+
+### What is a proxy object and what are the two different types of proxies Spring can create?
+#### What are the limitations of these proxies (per type)?
+#### What is the power of a proxy object and where are the disadvantages?
+
+### What does the @Bean annotation do?
+
+### What is the default bean id if you only use @Bean? How can you override this?
+### Why are you not allowed to annotate a final class with @Configuration
+#### How do @Configuratioin annotated classed classes support singleton beans?
+#### Why can't @Bean method be final either?
+
+### How do you configure profiles? What are possible use cases where they might be useful?
+
+### Can you use @Bean together with @Profile?
+
+### Can you use @Component together with @Profile?
+
+### How many profiles can you have?
+
+### How do you inject scalar/literal values into Spring beans?
+#### What is @Value used for?
+
+### What is Spring Expression Language (SpEL for short)?
+
+### What is the Environment abstraction in Spring?
+
+### Where can properties in the environment come from - there are many sourcesw for properties - check the documentation if not sure. Spring Boot adds even more
+
+### What can you reference using SpEL?
+
+### What is the difference between $ and # in @Value expressions?
+
+
+
+
 
 
 
