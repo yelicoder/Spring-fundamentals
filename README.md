@@ -2,11 +2,17 @@
 Spring Framework: Spring Fundamentals
 
 ### What is dependency injection and what are the advantage of using it?
-Dependency Injection is a process where by objects define their dependencies (that is, the other objects they work with) only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method.
+Dependency Injection is a process whereby objects define their dependencies (that is, the other objects they work with) only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method.
 
 ### What is an interface and what are the advantages of making use of them in Java?
 
 ### What is an ApplicationContext?
+The BeanFactory interface provides an advanced configuration mechanism capable of managing any type of object. ApplicationContext is a sub-interface of BeanFactory. It adds:
+* Easier integration with Spring’s AOP features
+* Message resource handling (for use in internationalization)
+* Event publication
+* Application-layer specific contexts such as the WebApplicationContext for use in web applications.
+In short, the BeanFactory provides the configuration framework and basic functionality, and the ApplicationContext adds more enterprise-specific functionality.
 
 ### How are you going to create a new instance of an ApplicationContext?
 
