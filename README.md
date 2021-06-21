@@ -3,6 +3,10 @@ Spring Framework: Spring Fundamentals
 
 ### What is dependency injection and what are the advantage of using it?
 Dependency Injection is a process whereby objects define their dependencies (that is, the other objects they work with) only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method.
+* Advantages
+  * Code is cleaner
+  * Decoupling is more effective
+  * The object does not look up its dependencies and does not know the location or class of the dependencies. As a result, your classes become easier to test, particularly when the dependenciews are on interfaces or abstradct base classes, which allow for stub or mock implementationw to be used in unit tests.
 
 ### What is an interface and what are the advantages of making use of them in Java?
 * Interface is a contract between the client and the class that implements the interface. As long as the interface is implemented by the implementing class, the client is satisfied. It does not matter what is underneath the interface method implementation.
@@ -43,6 +47,7 @@ In short, the BeanFactory provides the configuration framework and basic functio
 ### Can you describe scopes for Spring beans? What is the default scope?
 
 ### Are beans lazily or eagerly instantiated by default? How do you alter this behavior?
+* Beans that are singleton-scoped and set to be pre-instantiated (the default)  are created when the container is created. Otherwise, the bean is created only when it is requested. 
 
 ### What is a property source? How would you use @PropertySource
 
@@ -104,6 +109,7 @@ In short, the BeanFactory provides the configuration framework and basic functio
 ### Overview
 * Dependency Injection
   * Objects define their dependencies (that is, the other objects they work with) only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method
+  * For each bean, its dependencies are expressed in the form of properties, constructor arguments, or arguments to the static-factoryt method.
   * Using Java configuration
   * Using annotations
      * @Autowired
