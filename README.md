@@ -1,6 +1,9 @@
 # Spring-fundamentals
 Spring Framework: Spring Fundamentals
 
+## References
+https://docs.spring.io/spring-framework/docs/current/reference/html/core.html
+
 ### What is dependency injection and what are the advantage of using it?
 Dependency Injection is a process whereby objects define their dependencies (that is, the other objects they work with) only through constructor arguments, arguments to a factory method, or properties that are set on the object instance after it is constructed or returned from a factory method.
 * Advantages
